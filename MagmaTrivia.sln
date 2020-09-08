@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagmaTrivia", "src\MagmaTrivia\MagmaTrivia.csproj", "{F274D3B0-207A-475B-BB85-3F2F6E6C76D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagmaTrivia.Tests", "test\MagmaTrivia.Test\MagmaTrivia.Tests.csproj", "{BAA0DDA9-3F0B-4AA3-B1B6-776510564C62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E8DB0B2E-F1F5-4BB8-AF57-5F84B0CFE043}"
+ProjectSection(SolutionItems) = preProject
+	omnisharp.json = omnisharp.json
+	template.yaml = template.yaml
+	README.md = README.md
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F274D3B0-207A-475B-BB85-3F2F6E6C76D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F274D3B0-207A-475B-BB85-3F2F6E6C76D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F274D3B0-207A-475B-BB85-3F2F6E6C76D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F274D3B0-207A-475B-BB85-3F2F6E6C76D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA0DDA9-3F0B-4AA3-B1B6-776510564C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA0DDA9-3F0B-4AA3-B1B6-776510564C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA0DDA9-3F0B-4AA3-B1B6-776510564C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA0DDA9-3F0B-4AA3-B1B6-776510564C62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

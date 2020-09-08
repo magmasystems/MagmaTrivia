@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="600cc920-edec-4820-b7d7-6db7c33e10d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/HelloWorld.Test/FunctionTest.cs" />
+        <option value="$PROJECT_DIR$/MagmaTrivia.sln" />
+        <option value="$PROJECT_DIR$/src/MagmaTrivia/aws-lambda-tools-defaults.json" />
+        <option value="$PROJECT_DIR$/test/MagmaTrivia.Test/FunctionTest.cs" />
+        <option value="$PROJECT_DIR$/test/MagmaTrivia.Test/MagmaTrivia.Tests.csproj" />
+        <option value="$PROJECT_DIR$/template.yaml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/MagmaTrivia/Function.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hF8paNvatzI29dWx2zEN4OpkT2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="[Local] HelloWorldFunction" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="debugHost" value="localhost" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" />
+      <option name="logicalFunctionName" value="HelloWorldFunction" />
+      <option name="memorySize" value="128" />
+      <option name="runtime" />
+      <option name="templateFile" value="$PROJECT_DIR$/template.yaml" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="true" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" />
+        <option name="additionalLocalArgs" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="600cc920-edec-4820-b7d7-6db7c33e10d8" name="Default Changelist" comment="" />
+      <created>1599595664772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599595664772</updated>
+      <workItem from="1599595670264" duration="593000" />
+      <workItem from="1599596327265" duration="1489000" />
+    </task>
+    <task id="LOCAL-00001" summary="Changes project name from HelloWorld to MagmaTrivia">
+      <created>1599602577703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599602577704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Changes project name from HelloWorld to MagmaTrivia" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes project name from HelloWorld to MagmaTrivia" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="351" y="204" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599602626849">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="351" y="204" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1599602626849" />
+    <state x="388" y="181" key="SettingsEditor" timestamp="1599595699828">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="388" y="181" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1599595699828" />
+    <state x="486" y="282" key="Vcs.Push.Dialog.v2" timestamp="1599602807560">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="486" y="282" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1599602807560" />
+    <state x="540" y="175" width="693" height="735" key="find.popup" timestamp="1599596615312">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="540" y="175" width="693" height="735" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1599596615312" />
+  </component>
+</project>
