@@ -5,6 +5,10 @@ using Newtonsoft.Json;
 
 using Amazon.Lambda.Core;
 using Amazon.Lambda.APIGatewayEvents;
+using AWS.Logger;
+using AWS.Logger.SeriLog;
+using Serilog;
+using Serilog.Formatting.Compact;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.Json.JsonSerializer))]
@@ -12,7 +16,6 @@ using Amazon.Lambda.APIGatewayEvents;
 namespace MagmaTrivia
 {   public class Function
     {
-
         private static readonly HttpClient Client = new HttpClient();
 
         // ReSharper disable once InconsistentNaming
@@ -28,7 +31,24 @@ namespace MagmaTrivia
 
         public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest apigProxyEvent, ILambdaContext context)
         {
+            LambdaLogger.Log($"FunctionHandler: event is {apigProxyEvent}");
 
+            var configuration = new AWSLoggerConfig
+            {
+                LogGroup = "MagmaTriviaLogGroup",
+                LogStreamNamePrefix = "MagmaTriviaLogStream",
+                LogStreamNameSuffix = "dev",
+                Region = "us-east-1",
+                DisableLogGroupCreation = false,
+                MaxQueuedMessages = 1
+            };
+            var logger = new LoggerConfiguration()
+                .MinimumLevel.Information()
+                // .WriteTo.AWSSeriLog(configuration)
+                .WriteTo.Console(new CompactJsonFormatter())
+                .CreateLogger();
+            logger.Information($"Serilog.FunctionHandler: event is {apigProxyEvent}");
+            
             var location = await GetCallingIP();
             var body = new Dictionary<string, string>
             {

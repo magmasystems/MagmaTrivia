@@ -17,6 +17,7 @@
       <e p="README.md" t="Include" />
       <e p="Solution Items" t="Include" />
       <e p="src/MagmaTrivia" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
         <e p="aws-lambda-tools-defaults.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Function.cs" t="Include" />

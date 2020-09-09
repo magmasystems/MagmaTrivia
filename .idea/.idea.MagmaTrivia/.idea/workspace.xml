@@ -10,7 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600cc920-edec-4820-b7d7-6db7c33e10d8" name="Default Changelist" comment="" />
+    <list default="true" id="600cc920-edec-4820-b7d7-6db7c33e10d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MagmaTrivia/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MagmaTrivia/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MagmaTrivia/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MagmaTrivia/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MagmaTrivia/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MagmaTrivia/Function.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/MagmaTrivia/Function.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MagmaTrivia/MagmaTrivia.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/MagmaTrivia/MagmaTrivia.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/template.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/MagmaTrivia.Test/MagmaTrivia.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/test/MagmaTrivia.Test/MagmaTrivia.Tests.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +26,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B29CF983-E7BF-4046-BB12-E3F412EAF042/30/Logger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A36E7E82-711D-4786-B2C4-E855F4CBD496/68/e05db564/AWSLoggerConfig.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -27,8 +39,9 @@
         <option value="$PROJECT_DIR$/src/MagmaTrivia/aws-lambda-tools-defaults.json" />
         <option value="$PROJECT_DIR$/test/MagmaTrivia.Test/FunctionTest.cs" />
         <option value="$PROJECT_DIR$/test/MagmaTrivia.Test/MagmaTrivia.Tests.csproj" />
-        <option value="$PROJECT_DIR$/template.yaml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/template.yaml" />
+        <option value="$PROJECT_DIR$/src/MagmaTrivia/appsettings.json" />
         <option value="$PROJECT_DIR$/src/MagmaTrivia/Function.cs" />
       </list>
     </option>
@@ -46,7 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="AWS Lambda.[Remote] MagmaTrivia-MagmaTriviaFunction-17FU3D1FMVYLK">
     <configuration name="[Local] HelloWorldFunction" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
       <option name="credentialProviderId" />
       <option name="regionId" />
@@ -72,6 +85,19 @@
       </sam>
       <method v="2" />
     </configuration>
+    <configuration name="[Remote] MagmaTrivia-MagmaTriviaFunction-17FU3D1FMVYLK" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
+      <option name="credentialProviderId" value="profile:robyn" />
+      <option name="regionId" value="us-east-1" />
+      <option name="functionName" value="MagmaTrivia-MagmaTriviaFunction-17FU3D1FMVYLK" />
+      <option name="input" value="{&#10;  &quot;body&quot;: &quot;{\&quot;test\&quot;:\&quot;body\&quot;}&quot;,&#10;  &quot;resource&quot;: &quot;/{proxy+}&quot;,&#10;  &quot;path&quot;: &quot;/path/to/resource&quot;,&#10;  &quot;httpMethod&quot;: &quot;POST&quot;,&#10;  &quot;queryStringParameters&quot;: {&#10;    &quot;foo&quot;: &quot;bar&quot;&#10;  },&#10;  &quot;pathParameters&quot;: {&#10;    &quot;proxy&quot;: &quot;path/to/resource&quot;&#10;  },&#10;  &quot;stageVariables&quot;: {&#10;    &quot;baz&quot;: &quot;qux&quot;&#10;  },&#10;  &quot;headers&quot;: {&#10;    &quot;Accept&quot;: &quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8&quot;,&#10;    &quot;Accept-Encoding&quot;: &quot;gzip, deflate, sdch&quot;,&#10;    &quot;Accept-Language&quot;: &quot;en-US,en;q=0.8&quot;,&#10;    &quot;Cache-Control&quot;: &quot;max-age=0&quot;,&#10;    &quot;CloudFront-Forwarded-Proto&quot;: &quot;https&quot;,&#10;    &quot;CloudFront-Is-Desktop-Viewer&quot;: &quot;true&quot;,&#10;    &quot;CloudFront-Is-Mobile-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-SmartTV-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Is-Tablet-Viewer&quot;: &quot;false&quot;,&#10;    &quot;CloudFront-Viewer-Country&quot;: &quot;US&quot;,&#10;    &quot;Host&quot;: &quot;1234567890.execute-api.{dns_suffix}&quot;,&#10;    &quot;Upgrade-Insecure-Requests&quot;: &quot;1&quot;,&#10;    &quot;User-Agent&quot;: &quot;Custom User Agent String&quot;,&#10;    &quot;Via&quot;: &quot;1.1 08f323deadbeefa7af34d5feb414ce27.cloudfront.net (CloudFront)&quot;,&#10;    &quot;X-Amz-Cf-Id&quot;: &quot;cDehVQoZnx43VYQb9j2-nvCh-9z396Uhbp027Y2JvkCPNLmGJHqlaA==&quot;,&#10;    &quot;X-Forwarded-For&quot;: &quot;127.0.0.1, 127.0.0.2&quot;,&#10;    &quot;X-Forwarded-Port&quot;: &quot;443&quot;,&#10;    &quot;X-Forwarded-Proto&quot;: &quot;https&quot;&#10;  },&#10;  &quot;requestContext&quot;: {&#10;    &quot;accountId&quot;: &quot;123456789012&quot;,&#10;    &quot;resourceId&quot;: &quot;123456&quot;,&#10;    &quot;stage&quot;: &quot;prod&quot;,&#10;    &quot;requestId&quot;: &quot;c6af9ac6-7b61-11e6-9a41-93e8deadbeef&quot;,&#10;    &quot;identity&quot;: {&#10;      &quot;cognitoIdentityPoolId&quot;: null,&#10;      &quot;accountId&quot;: null,&#10;      &quot;cognitoIdentityId&quot;: null,&#10;      &quot;caller&quot;: null,&#10;      &quot;apiKey&quot;: null,&#10;      &quot;sourceIp&quot;: &quot;127.0.0.1&quot;,&#10;      &quot;cognitoAuthenticationType&quot;: null,&#10;      &quot;cognitoAuthenticationProvider&quot;: null,&#10;      &quot;userArn&quot;: null,&#10;      &quot;userAgent&quot;: &quot;Custom User Agent String&quot;,&#10;      &quot;user&quot;: null&#10;    },&#10;    &quot;resourcePath&quot;: &quot;/{proxy+}&quot;,&#10;    &quot;httpMethod&quot;: &quot;POST&quot;,&#10;    &quot;apiId&quot;: &quot;1234567890&quot;&#10;  }&#10;}" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="AWS Lambda.[Remote] MagmaTrivia-MagmaTriviaFunction-17FU3D1FMVYLK" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599595664772</updated>
       <workItem from="1599595670264" duration="593000" />
-      <workItem from="1599596327265" duration="1489000" />
+      <workItem from="1599596327265" duration="9243000" />
     </task>
     <task id="LOCAL-00001" summary="Changes project name from HelloWorld to MagmaTrivia">
       <created>1599602577703</created>
@@ -91,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599602577704</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes project name from HelloWorld to MagmaTrivia">
+      <created>1599602874910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599602874910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,14 +154,38 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="351" y="204" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1599602626849" />
+    <state x="507" y="351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599603128637">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="507" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1599603128637" />
+    <state width="1744" height="137" key="GridCell.Tab.0.bottom" timestamp="1599611592085">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1744" height="137" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1599611592085" />
+    <state width="1744" height="137" key="GridCell.Tab.0.center" timestamp="1599611592084">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1744" height="137" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1599611592084" />
+    <state width="1744" height="137" key="GridCell.Tab.0.left" timestamp="1599611592084">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1744" height="137" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1599611592084" />
+    <state width="1744" height="137" key="GridCell.Tab.0.right" timestamp="1599611592085">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1744" height="137" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1599611592085" />
+    <state x="474" y="284" width="1175" height="516" key="IDE.errors.dialog" timestamp="1599604616388">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="474" y="284" width="1175" height="516" key="IDE.errors.dialog/0.23.1792.1097@0.23.1792.1097" timestamp="1599604616388" />
     <state x="388" y="181" key="SettingsEditor" timestamp="1599595699828">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="388" y="181" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1599595699828" />
-    <state x="486" y="282" key="Vcs.Push.Dialog.v2" timestamp="1599602807560">
+    <state x="486" y="282" key="Vcs.Push.Dialog.v2" timestamp="1599602880693">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="486" y="282" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1599602807560" />
+    <state x="486" y="282" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1599602880693" />
     <state x="540" y="175" width="693" height="735" key="find.popup" timestamp="1599596615312">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

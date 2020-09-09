@@ -24,6 +24,18 @@ Resources:
           Properties:
             Path: /magmatrivia
             Method: get
+            
+  MagmaTriviaLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: MagmaTriviaLogGroup
+      RetentionInDays: 1  
+      
+  MagmaTriviaLogStream:
+    Type: AWS::Logs::LogStream
+    Properties:
+      LogGroupName: "MagmaTriviaLogGroup"
+      LogStreamName: "MagmaTriviaLogStream-dev"    
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
@@ -31,7 +43,7 @@ Outputs:
   # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
   MagmaTriviaApi:
     Description: "API Gateway endpoint URL for Prod stage for MagmaTrivia function"
-    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/magmatrivia/"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/dev/magmatrivia/"
   MagmaTriviaFunction:
     Description: "MagmaTrivia Lambda Function ARN"
     Value: !GetAtt MagmaTriviaFunction.Arn
